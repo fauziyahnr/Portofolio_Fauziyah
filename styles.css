@@ -886,6 +886,8 @@ section {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .social-links a:hover {
