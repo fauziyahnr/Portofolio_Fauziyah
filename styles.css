@@ -875,8 +875,10 @@ section {
 .social-links {
     display: flex;
     gap: var(--spacing-md);
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+    max-width: 200px;
 }
 
 .social-links a {
