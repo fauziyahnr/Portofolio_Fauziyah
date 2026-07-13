@@ -875,7 +875,7 @@ section {
 .social-links {
     display: flex;
     gap: var(--spacing-md);
-    display: flex;
+    
     flex-wrap: wrap;       /* Memungkinkan elemen pindah ke baris baru */
     gap: 15px;             /* Memberikan jarak antar ikon */
     max-width: 200px;      /* Atur lebar maksimal agar ikon terbagi menjadi 2 baris */
@@ -891,6 +891,7 @@ section {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    
     text-decoration: none;
     font-size: 24px;       /* Atur ukuran ikon sesuai keinginan */
 }
