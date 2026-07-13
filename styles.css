@@ -875,10 +875,6 @@ section {
 .social-links {
     display: flex;
     gap: var(--spacing-md);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px
-    max-width: 200px;
 }
 
 .social-links a {
