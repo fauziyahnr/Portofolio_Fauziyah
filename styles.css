@@ -741,6 +741,18 @@ section {
 }
 
 .contact-wrapper {
+  display: block;                   /* Ubah dari grid menjadi block */
+  max-width: 550px;                 /* Batasi lebar maksimal frame agar tidak terlalu melar */
+  margin: var(--spacing-xl) auto 0; /* 'auto' pada sisi kiri & kanan akan otomatis menggesernya ke tengah */
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr;       /* Ubah dari repeat(2, 1fr) menjadi 1fr (satu kolom saja) */
+  gap: var(--spacing-lg);
+}
+
+/*.contact-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-xl);
@@ -752,7 +764,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-lg);
 }
-
+*/
 .contact-card {
     background: var(--light-bg);
     padding: var(--spacing-lg);
