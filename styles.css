@@ -749,7 +749,7 @@ section {
 
 .contact-info {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-lg);
 }
 
@@ -800,7 +800,7 @@ section {
     font-size: var(--font-size-xs) !important;
 }
 
-.contact-form-wrapper {
+/*.contact-form-wrapper {
     background: var(--light-bg);
     padding: var(--spacing-lg);
     border-radius: var(--radius-lg);
@@ -841,7 +841,7 @@ section {
     outline: none;
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
-}
+}*/
 
 /* ======================== FOOTER ======================== */
 .footer {
