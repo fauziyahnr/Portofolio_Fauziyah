@@ -879,7 +879,7 @@ section {
     flex-wrap: wrap;       /* Memungkinkan elemen pindah ke baris baru */
     gap: 15px;             /* Memberikan jarak antar ikon */
     max-width: 200px;      /* Atur lebar maksimal agar ikon terbagi menjadi 2 baris */
-    justify-content: center; /* Opsional: agar ikon berada di tengah */
+    justify-content: left; /* Opsional: agar ikon berada di tengah */
 }
 
 .social-links a {
