@@ -627,12 +627,11 @@ section {
 }
 
 .hidden-project {
-    display: none;
+    display: none !important;
 }
 
 .hidden-project.show {
-    display: flex;
-    flex-direction: column;
+    display: block !important;
 }
 /* ======================== EXPERIENCE SECTION ======================== */
 .experience {
