@@ -632,6 +632,7 @@ section {
 
 .hidden-project.show {
     display: flex !important;
+    flex-direction: column;
 }
 /* ======================== EXPERIENCE SECTION ======================== */
 .experience {
