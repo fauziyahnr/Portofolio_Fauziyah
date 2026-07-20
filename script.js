@@ -279,5 +279,29 @@ window.addEventListener('resize', debounce(() => {
     // Handle resize events
 }, 250));
 
+// --- Fungsi View All Projects ---
+const viewAllBtn = document.getElementById('viewAllBtn'); // Pastikan tombol di HTML diberi id="viewAllBtn"
+
+if (viewAllBtn) {
+    viewAllBtn.addEventListener('click', function(e) {
+        e.preventDefault(); // Mencegah halaman reload atau melompat ke atas
+        
+        // Mengambil semua card project yang memiliki class 'hidden-project'
+        const hiddenProjects = document.querySelectorAll('.hidden-project');
+        
+        hiddenProjects.forEach(project => {
+            // Memunculkan atau menyembunyikan kembali saat diklik
+            project.classList.toggle('show');
+        });
+
+        // Mengubah teks tombol secara dinamis
+        if (this.textContent.includes('View All')) {
+            this.textContent = 'Show Less';
+        } else {
+            this.textContent = 'View All Projects';
+        }
+    });
+}
+
 // Initialize AOS (Animate On Scroll) alternatives
 console.log('Portfolio loaded successfully!');
