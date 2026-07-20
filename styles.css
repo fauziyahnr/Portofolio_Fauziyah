@@ -626,6 +626,14 @@ section {
     text-align: center;
 }
 
+.hidden-project {
+    display: none;
+}
+
+.hidden-project.show {
+    display: flex;
+    flex-direction: column;
+}
 /* ======================== EXPERIENCE SECTION ======================== */
 .experience {
     background: var(--light-bg);
